@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Peace Sans';
+  src: url('/fonts/PeaceSans.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.site-header {
+  background: #0503CF;
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* logo */
+.logo-wrap {
+  margin-bottom: 12px;
+}
+
+.logo {
+  font-size: 57px;
+  font-weight: 600;
+  font-family: 'Peace Sans', sans-serif;
+  text-decoration: none;
+  color: #fffef6;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    font-size: 40px;
+  }
+
+  .tagline {
+    font-size: 8px !important;
+  }
+}
+
+.tagline {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  color: #ffeb7c;
+  margin-bottom: 1px;
+  font-weight: 550;
+}
+
+
+/* nav bar wrapper */
+.nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  background: #fff;
+  padding: 5px 10px;
+  border-top: 1px solid #ddd;
+}
+
+.main-nav {
+  display: flex;
+  gap: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 17px !important;
+  width: 130px;
+}
+
+@media (max-width: 768px) {
+  .main-nav a {
+    width: 76px;
+    font-size: 12px !important;
+  }
+}
+
+.main-nav a:hover {
+ background: #0501f75b;
+  border-radius: 3px;
+}
+
+/* search */
+.search-area {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.search-box {
+  display: flex;
+}
+
+.search-box input {
+  width: 200px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background: white;
+}
+
+.search-icon {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 40px;
+  cursor: pointer;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .search-icon {
+    font-size: 19px;
+  }
+}
+
+.search-icon:hover {
+  color: #0503CF;
+}
