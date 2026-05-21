@@ -31,11 +31,11 @@
 
 @media (max-width: 768px) {
   .logo {
-    font-size: 30px;
+    font-size: 33px;
   }
 
   .tagline {
-    font-size: 10px !important;
+    font-size: 9px !important;
   }
 }
 
